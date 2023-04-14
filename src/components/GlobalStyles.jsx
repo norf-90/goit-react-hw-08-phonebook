@@ -3,19 +3,15 @@ import 'modern-normalize';
 
 export const GlobalStyles = () => injectGlobal`
    body {
-    background-image: url('https://images.unsplash.com/photo-1611416517780-eff3a13b0359?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1949&q=80');
+    background-image: url('https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366_960_720.jpg');
     background-size: cover;
     background-repeat: no-repeat;
    background-attachment: fixed ;
 
-    
-    display:flex;
-    justify-content: center;
+
     padding: 50px 30px;
     margin: 0;
-    font-family: monospace,
-      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-      sans-serif;
+   font-family: 'Mina', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
