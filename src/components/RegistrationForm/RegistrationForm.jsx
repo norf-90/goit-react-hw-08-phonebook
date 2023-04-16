@@ -52,7 +52,6 @@ const RegistrationForm = () => {
               <Field
                 type="text"
                 name="userName"
-                title="Name may contain only letters, apostrophe, dash and spaces. For example Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan"
                 placeholder="Brendan Eich"
                 required
               />
@@ -63,7 +62,12 @@ const RegistrationForm = () => {
           <Label>
             <InputTitle>User email</InputTitle>
             <Wrapper>
-              <Field type="mail" name="userMail" required placeholder=" " />
+              <Field
+                type="mail"
+                name="userMail"
+                required
+                placeholder="brendan-eich@gmail.com"
+              />
               <ErrorMessage name="userMail" />
             </Wrapper>
           </Label>

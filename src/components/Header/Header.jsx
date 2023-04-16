@@ -14,6 +14,7 @@ const Header = () => {
         <Link to={'/'}>
           <Image src={logo} alt="logo" />
         </Link>
+        {isLoggedIn && <Link to={'/contacts'}>Contacts</Link>}
         {isLoggedIn ? <UserMenu /> : <AuthNav />}
       </Wrapper>
 

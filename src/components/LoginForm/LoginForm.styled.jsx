@@ -13,9 +13,9 @@ export const Title = styled.h2`
 export const Form = styled(FormikForm)`
   padding: 40px;
   margin: 0 auto;
-  width: 600px;
+  max-width: 600px;
 
-  border: 2px solid #ffffff;
+  border: 4px solid #ffffff;
   border-radius: 50px;
   display: flex;
   flex-direction: column;

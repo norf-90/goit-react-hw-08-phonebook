@@ -1,9 +1,9 @@
 import styled from '@emotion/styled';
 import { Form as FormikForm, Field as Input } from 'formik';
-import { RiUserAddFill } from 'react-icons/ri';
+import { BsTelephonePlusFill } from 'react-icons/bs';
 
 export const Title = styled.h2`
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   font-size: 35px;
   font-weight: 900;
   text-align: center;
@@ -12,7 +12,7 @@ export const Title = styled.h2`
 
 export const Form = styled(FormikForm)`
   padding: 40px;
-  margin: 0 auto;
+  margin: 0 auto 20px;
   max-width: 600px;
 
   border: 4px solid #ffffff;
@@ -74,7 +74,7 @@ export const SubmitBtn = styled.button`
   }
 `;
 
-export const LoginIcon = styled(RiUserAddFill)`
+export const LoginIcon = styled(BsTelephonePlusFill)`
   color: inherit;
 `;
 

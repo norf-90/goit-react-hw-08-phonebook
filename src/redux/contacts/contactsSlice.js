@@ -1,10 +1,9 @@
 import { createSlice, isAnyOf } from '@reduxjs/toolkit';
 
-import { addContact, deleteContact, fetchContacts } from '../operations';
+import { addContact, deleteContact, fetchContacts } from './contactsOperations';
 const actions = [addContact, deleteContact, fetchContacts];
 
 const handlePending = state => {
-  console.log(state.isLoading);
   state.isLoading = true;
 };
 const handleRejected = (state, action) => {

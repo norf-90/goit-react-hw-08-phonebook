@@ -1,14 +1,15 @@
+import { Text } from './Home.styled';
+
 const Home = () => {
   return (
     <div>
       <h1>
-        Task manager welcome page{' '}
-        <span role="img" aria-label="Greeting icon">
-          💁‍♀️ Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Dignissimos voluptates harum obcaecati, quam ea, dolores perspiciatis
-          dolor animi, tempore enim quasi nemo maxime quas. Fugiat et eum amet
-          iusto. Reiciendis?
-        </span>
+        <Text role="img" aria-label="Greeting icon">
+          Hi! This is the implementation of a phonebook application. Here, you
+          can manage and save your contacts. You need to sign up or log in
+          before starting to use it.
+        </Text>
+        <Text>P.S. Do not save any important data here.</Text>
       </h1>
     </div>
   );
